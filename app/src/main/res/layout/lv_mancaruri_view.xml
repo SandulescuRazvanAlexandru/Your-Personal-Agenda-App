@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lv_row_color">
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_descriere"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_descriere"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_fel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_fel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_mancaruri_view_fel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_descriere"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_lv_mancaruri_view_gramaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/iv_lv_mancaruri_view_gramaj"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_gramaj"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_proteine"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_descriere"
+        app:srcCompat="@drawable/ic_scale_image_removebg_preview" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_gramaj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_gramaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_mancaruri_view_gramaj"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_descriere" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_proteine_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_lv_mancaruri_view_proteine_label"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_proteine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_descriere" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_proteine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_proteine"
+        app:layout_constraintEnd_toStartOf="@id/iv_lv_mancaruri_view_gramaj"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_proteine_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_descriere" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_carbohidrati_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_lv_mancaruri_view_carbohidrati_label"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_carbohidrati"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_proteine_label" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_carbohidrati"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_carbohidrati"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_calorii_label"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_carbohidrati_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_proteine_label" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_grasimi_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_lv_mancaruri_view_grasimi_label"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_grasimi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_carbohidrati_label" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_grasimi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_grasimi"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_grasimi_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_carbohidrati_label" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_calorii_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_calorii_label"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_mancaruri_view_calorii"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_carbohidrati"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_gramaj" />
+
+    <TextView
+        android:id="@+id/tv_lv_mancaruri_view_calorii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_mancaruri_view_calorii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_mancaruri_view_calorii_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_mancaruri_view_gramaj" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402832880471",
+    "project_id": "the-reddit-guys-project-dam",
+    "storage_bucket": "the-reddit-guys-project-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402832880471:android:1b9e14275d1c5b4255c412",
+        "android_client_info": {
+          "package_name": "com.example.your_personal_agenda_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402832880471-kqqs8t7g532vlo4jakd3anotp2k3k3sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFpHzy74vS_ko8FNqoOz0GELnE_M-JLjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402832880471-kqqs8t7g532vlo4jakd3anotp2k3k3sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

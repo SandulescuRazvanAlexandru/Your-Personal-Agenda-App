@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lv_row_color">
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_nume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_lv_persoane_view_nume"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_baseline_person_24"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_nume"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_nume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_nume"
+        app:layout_constraintEnd_toStartOf="@id/iv_lv_persoane_view_data"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_nume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_lv_persoane_view_data"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_baseline_calendar_today_24"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_data"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_persoane_view_nume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_data"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/iv_lv_persoane_view_gen"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_gen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_data"
+        app:srcCompat="@drawable/ic_gender_signs_removebg_preview_svg" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_gen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_gen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_gen"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_nume" />
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_varsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_lv_persoane_view_varsta"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_age_image_removebg_preview_svg"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_varsta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_varsta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_varsta"
+        app:layout_constraintEnd_toStartOf="@id/iv_lv_persoane_view_greutate"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_varsta"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_greutate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_lv_persoane_view_greutate"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_scale_image_removebg_preview"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_greutate"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_persoane_view_varsta"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_greutate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_greutate"
+        app:layout_constraintEnd_toStartOf="@id/iv_lv_persoane_view_inaltime"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_greutate"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+    <ImageView
+        android:id="@+id/iv_lv_persoane_view_inaltime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/iv_lv_persoane_view_inaltime"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_baseline_height_24"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_persoane_view_inaltime"
+        app:layout_constraintStart_toStartOf="@id/tv_lv_persoane_view_greutate"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+    <TextView
+        android:id="@+id/tv_lv_persoane_view_inaltime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_persoane_view_inaltime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_persoane_view_inaltime"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_persoane_view_gen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">Your_Personal_Agenda_App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="main_nav_home_title" />
+    <string name="header_activity_logger">Agenda persoanala</string>
+    <string name="menu_options_persoane">Persoane</string>
+    <string name="menu_options_mancaruri">Mancaruri</string>
+    <string name="menu_options_activitati">Activitati</string>
+    <string name="menu_options_rapoarte">Rapoarte</string>
+    <string name="menu_options_tutorial">Tutorial</string>
+    <string name="menu_options_detalii">Detalii</string>
+    <string name="btn_add_persoane_salvare">Salvare</string>
+    <string name="chkbx_add_persoane_salveaza_preferinte">Salveaza preferinte</string>
+    <string name="tiet_add_persoane_nume">Nume</string>
+    <string name="tv_add_persoane_informatii_personale">Informatii personale</string>
+    <string name="tiet_add_persoane_varsta">Varsta</string>
+    <string name="rb_add_persoane_masculin">Masculin</string>
+    <string name="rb_add_persoane_feminin">Feminin</string>
+    <string name="tv_add_persoane_gen">Gen</string>
+    <string name="tiet_add_persoane_greutate">Greutate (KG)</string>
+    <string name="tiet_add_persoane_inaltime">Inaltime (CM)</string>
+    <string name="btn_add_persoane_alege_data">Alege data</string>
+    <string name="tv_add_persoane_ziua_luna_anul">Ziua/Luna/Anul</string>
+    <string name="tv_add_mancaruri_informatii_masa">Informatii masa</string>
+    <string name="tiet_add_mancaruri_descriere">Descriere</string>
+    <string name="tv_add_mancaruri_felul_mesei">Felul mesei</string>
+    <string name="tiet_add_mancaruri_gramaj">Gramaj (G)</string>
+    <string name="tv_add_mancaruri_proteine">Proteine (G)</string>
+    <string name="tv_add_mancaruri_carbohidrati">Carbohidrati (G)</string>
+    <string name="tv_add_mancaruri_grasimi">Grasimi (G)</string>
+    <string name="et_add_mancaruri_proteine">Proteine</string>
+    <string name="et_add_mancaruri_carbohidrati">Carbohidrati</string>
+    <string name="et_add_mancaruri_grasimi">Grasimi</string>
+    <string name="tv_add_mancaruri_calorii">Calorii din zilnicul recomandat</string>
+    <string name="tv_add_activitati_informatii_activitate">Informatii activitate</string>
+    <string name="tiet_add_activitati_tip_activitate">Tip activitate</string>
+    <string name="tv_add_activitati_durata_activitate">Durata activitate</string>
+    <string name="tiet_add_activitati_calorii_arse">Calorii arse</string>
+    <string name="tv_add_activitati_durata_ore">Ore</string>
+    <string name="tv_add_activitati_minute">Minute</string>
+    <string name="et_add_activitati_durata_ore">Ore</string>
+    <string name="et_add_activitati_durata_minute">Minute</string>
+    <string name="iv_lv_persoane_view_nume">Nume persoana</string>
+    <string name="tv_lv_persoane_view_nume">Nume</string>
+    <string name="iv_lv_persoane_view_data">Data</string>
+    <string name="tv_lv_persoane_view_data">Data</string>
+    <string name="iv_lv_persoane_view_gen">Gen</string>
+    <string name="tv_lv_persoane_view_gen">Gen</string>
+    <string name="iv_lv_persoane_view_varsta">Varsta</string>
+    <string name="tv_lv_persoane_view_varsta">Varsta</string>
+    <string name="iv_lv_persoane_view_greutate">Greutate</string>
+    <string name="tv_lv_persoane_view_greutate">Greutate</string>
+    <string name="tv_lv_persoane_view_inaltime">Inaltime</string>
+    <string name="iv_lv_persoane_view_inaltime">Inaltime</string>
+    <string name="tv_lv_mancaruri_view_descriere">Descriere</string>
+    <string name="tv_mancaruri_view_fel">Fel</string>
+    <string name="iv_lv_mancaruri_view_gramaj">Gramaj</string>
+    <string name="tv_lv_mancaruri_view_gramaj">Gramaj</string>
+    <string name="tv_lv_mancaruri_view_proteine_label">Proteine:</string>
+    <string name="tv_lv_mancaruri_view_proteine">Proteine</string>
+    <string name="tv_lv_mancaruri_view_carbohidrati_label">Carbohidrati:</string>
+    <string name="tv_lv_mancaruri_view_carbohidrati">Carbohidrati</string>
+    <string name="tv_lv_mancaruri_view_grasimi_label">Grasimi:</string>
+    <string name="tv_lv_mancaruri_view_grasimi">Grasimi</string>
+    <string name="tv_lv_mancaruri_view_calorii_label">Calorii:</string>
+    <string name="tv_lv_mancaruri_view_calorii">Calorii</string>
+    <string name="tv_lv_activitati_view_tip_activitate">Tip activitate</string>
+    <string name="iv_lv_activitati_view_durata_ore">Ore</string>
+    <string name="tv_lv_activitati_view_durata_ore">Ore</string>
+    <string name="iv_lv_activitati_view_durata_minute">Minute</string>
+    <string name="tv_lv_activitati_view_durata_minute">Minute</string>
+    <string name="tv_lv_activitati_view_calorii_arse">Calorii arse</string>
+    <string name="tv_lv_activitati_view_durata_ore_text">%1$d ore</string>
+    <string name="tv_lv_activitati_view_durata_minute_text_peste20">%1$d de minute</string>
+    <string name="tv_lv_activitati_view_durata_minute_text_sub20">%1$d minute</string>
+    <string name="tv_lv_activitati_view_durata_minute_text_egal1">%1$d minut</string>
+    <string name="tv_lv_mancaruri_view_macronutrienti_si_gramaj">%1$.2f g</string>
+    <string name="tv_lv_persoane_view_varsta_diferit1">%1$d ani</string>
+    <string name="tv_lv_persoane_view_varsta_egal1">%1$d an</string>
+    <string name="tv_lv_persoane_view_greutate_text">%1$.2f kg</string>
+    <string name="tv_lv_persoane_view_inaltime_text">%1$.2f cm</string>
+    <string name="main_activity_option">Optiunea %1$s a fost apasata</string>
+    <string name="add_persoane_data_pick_choice">%1$d/%2$d/%3$d</string>
+    <string name="test_minus_sign">-</string>
+    <string name="test_dot_sign">.</string>
+    <string name="test_comma_sign">,</string>
+    <string name="mancaruri_person_not_selected_message">Trebuie selectata o persoana pentru a-i afisa mesele</string>
+
+    <string-array name="spn_add_mancaruri_fel">
+        <item>Mic-Dejun</item>
+        <item>Pranz</item>
+        <item>Cina</item>
+        <item>Gustare</item>
+        <item>Altele</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_info_activity_descriere">Detalii aplicatie\n
+        Nume aplicatie: Agenda Persoanala \n
+        Membrii aplicatie: \n
+        \t\t\t ->Sandulescu Razvan-Alexandru \n
+        \t\t\t ->Stan Catalin-Mihai \n
+        Aplicatia a fost realizata in urmatoarele etape: \n
+        Ziua 1 \n
+        \t\t\t ->Design \n
+        \t\t\t ->meniu CHECK \n
+        \t\t\t ->formulare CHECK \n
+        Ziua 2 \n
+        \t\t\t ->list-view adapter CHECK \n
+        \t\t\t ->fragmente 3 CHECK \n
+        \t\t\t ->main CHECK \n
+       \t\t\t ->3 activitati CHECK \n
+        \t\t\t ->Definim asynctask CHECK \n
+        \t\t\t ->Definim clasele CHECK \n
+       \t\t\t -> Definim adaptoarele pentru liste CHECK \n
+        \t\t\t ->Definim parserele JSON CHECK \n
+        \t\t\t ->Definim optiuni meniu deschidere CHECK \n
+        Ziua 3 \n
+        \t\t\t ->Definim validarile CHECK \n
+        \t\t\t ->Implementare spinner si date picker CHECK \n
+        \t\t\t ->Preluare JSON CHECK \n
+        \t\t\t ->Implementam list-view-adapterele CHECK \n
+        \t\t\t ->Implementare adaugare obiecte CHECK \n
+        Ziua 4 \n
+        \t\t\t ->Implementare modificare obiecte CHECK \n
+        \t\t\t ->Implementare stergere obiecte CHECK \n
+        \t\t\t ->Implementare preferinte CHECK \n
+        \t\t\t ->Implementam tot in afara de BD CHECK \n
+        \t\t\t ->Definim ROOM CHECK \n
+        Ziua 5 \n
+        \t\t\t ->Implementam ROOM CHECK \n
+        \t\t\t ->Definim FIREBASE CHECK \n
+        \t\t\t ->Implementam FIREBASE CHECK \n
+        \t\t\t ->Definim rapoarte CHECK \n
+        Ziua 6 \n
+        \t\t\t ->Definim calorii cerc CHECK \n
+        \t\t\t ->Definim splash activity CHECK \n
+        \t\t\t ->Definim tutorial CHECK \n
+        \t\t\t ->Definim info CHECK \n
+        \t\t\t ->Stilizam aplicatia CHECK \n
+        \t\t\t ->Documentatie CHECK \n
+    </string>
+    <string name="tv_tutorial_activity_pasi">Pasi de utilizare:  \n
+        \t\t\t ->Aplicatia se deschide pe ecranul cu persoane \n
+        \t\t\t ->In partea stanga exista un meniu care poate fi accesat apasand pe cele 3 liniute din coltul stanga sus\n
+        \t\t\t ->Meniul va navigheaza prin ecrane\n
+        \t\t\t ->In partea de jos a aplicatiei exista 6 butoane \n
+        \t\t\t ->Primele 2 butoane corespund intrarilor de persoane \n
+        \t\t\t ->Pentru a face orice operatie care tine de persoane trebuie sa va aflati pe ecranul cu persoane \n
+        \t\t\t ->Primul buton adauga o persoana noua \n
+        \t\t\t ->In ecranul cu adaugarea de persoane puteti apasa pe patratelul din stanga textului \"Salveaza Preferinte\" pentru a tine minte informatiile adaugate data viitoare cand adaugati o persoana noua \n
+        \t\t\t ->La debifare se vor sterge preferintele \n
+        \t\t\t ->Al doilea buton modifica o persoana deja existenta \n
+        \t\t\t ->Pentru a folosi al doilea buton trebuie apasat in prealabil pe o intrare de persoana \n
+        \t\t\t ->Si aici puteti apasa pe patratel pentru a tine minte, dar daca salvati si patratelul nu este bifat nu se vor sterge preferintele \n
+        \t\t\t ->Butoanele 3 si 4 corespund intrarilor de mese \n
+        \t\t\t ->Pentru a intra pe ecranul cu mese trebuie in prealabil apasat pe o intrare de persoana \n
+        \t\t\t ->Pentru a face orice operatie care tine de mese trebuie sa va aflati pe ecranul cu mese \n
+        \t\t\t ->Al treilea buton adauga o masa noua \n
+        \t\t\t ->In ecranul cu adaugarea de mese puteti apasa pe patratelul din stanga textului \"Salveaza Preferinte\" pentru a tine minte informatiile adaugate data viitoare cand adaugati o masa noua \n
+        \t\t\t ->La debifare se vor sterge preferintele \n
+        \t\t\t ->Al patrulea buton modifica o masa deja existenta \n
+        \t\t\t ->Pentru a folosi al patrulea buton trebuie apasat in prealabil pe o intrare de mese \n
+        \t\t\t ->Si aici puteti apasa pe patratel pentru a tine minte, dar daca salvati si patratelul nu este bifat nu se vor sterge preferintele \n
+        \t\t\t ->Butoanele 5 si 6 corespund intrarilor de activitati \n
+        \t\t\t ->Pentru a intra pe ecranul cu activitati trebuie in prealabil apasat pe o intrare de persoana \n
+        \t\t\t ->Pentru a face orice operatie care tine de activitati trebuie sa va aflati pe ecranul cu activitati \n
+        \t\t\t ->Al cincilea buton adauga o activitate noua \n
+        \t\t\t ->In ecranul cu adaugarea de activitati puteti apasa pe patratelul din stanga textului \"Salveaza Preferinte\" pentru a tine minte informatiile adaugate data viitoare cand adaugati o activitate noua \n
+        \t\t\t ->La debifare se vor sterge preferintele \n
+        \t\t\t ->Ultimul buton modifica o activitate deja existenta \n
+        \t\t\t ->Pentru a folosi ultimul buton trebuie apasat in prealabil pe o intrare de activitati \n
+        \t\t\t ->Si aici puteti apasa pe patratel pentru a tine minte, dar daca salvati si patratelul nu este bifat nu se vor sterge preferintele \n
+        \t\t\t ->La apasarea optiunii \"Rapoarte\" din meniu se va deschide un nou ecran unde prima data trebuie sa selectati persoana dorita, iar apoi trebuie selectata ziua dorita \n
+        \t\t\t ->In partea de jos gasiti un switch, daca este in pozitia de stanga se vor afisa toate mesele persoanei selectate din ziua selectata si numarul lor respectiv de calorii \n
+        \t\t\t ->Daca este in pozitia de dreapta se vor afisa toate activitatile persoanei selectate din ziua selectata, si se poate apasa pe o bucata din placinta rezultata pentru a afisa numele activitatii si durata ei in minute \n
+        \t\t\t ->La apasarea optiunii \"Tutorial\" se deschide tutorialul \n
+        \t\t\t ->La apasarea optiunii \"Detalii\" se afiseaza detalii despre aplicatie \n
+        \t\t\t ->La apasarea optiunii \"Firebase\" se afiseaza persoanele adaugate pana in acel moment \n
+        \t\t\t ->La apasarea butonului de salvare se salveaza persoanele pana in acel moment intr-o baza de date la distanta \n
+        \t\t\t ->La apasarea butonului de restaurare se afiseaza persoanele salvate deja in baza de date de la distanta \n
+    </string>
+    <string name="sw_rapoarte_activity_picker">Mancaruri / Activitati</string>
+    <string name="tv_rapoarte_activity_persoane">Persoane</string>
+    <string name="tv_rapoarte_activity_data">Data</string>
+    <string name="btn_rapoarte_activity_show">Afiseaza</string>
+    <string name="lv_row_view_no_content">-</string>
+    <string name="add_persoane_invalid_name_error">Trebuie completat campul cu numele persoanei</string>
+    <string name="add_persoane_invalid_age_error">Trebuie completat campul cu varsta persoanei cu valori mai mari ca 0</string>
+    <string name="add_persoane_invalid_weight_error">Trebuie completat campul cu greutatea persoanei cu valori mai mari ca 0</string>
+    <string name="add_persoane_invalid_height_error">Trebuie completat campul cu inaltimea persoanei cu valori mai mari ca 0</string>
+    <string name="add_persoane_invalid_date_error">Trebuie aleasa o data</string>
+    <string name="add_mancare_invalid_description_error">Trebuie completat campul cu descrierea mesei</string>
+    <string name="add_mancare_invalid_weight_error">Trebuie completat campul cu gramajul mesei cu valori mai mari ca 0</string>
+    <string name="add_mancare_invalid_macronutrients_error">Trebuie completat minim unul dintre campurile cu proteine, carbohidrati, grasimi cu valori mai mari ca 0</string>
+    <string name="add_activitate_invalid_type_error">Trebuie completat campul cu tipul activitatii</string>
+    <string name="add_activitate_invalid_duration_error">Trebuie completat unul dintre campurile cu ore, minute cu valori mai mari ca 0</string>
+    <string name="add_activitate_invalid_burned_calories_error">Trebuie completat campul cu calorii arse cu valori mai mari ca 0</string>
+    <string name="activitati_person_not_selected_message">Trebuie selectata o persoana pentru a-i afisa activitatile</string>
+    <string name="new_person_added_message">A fost adaugata o noua intrare de persoana</string>
+    <string name="add_mancare_persoana_message">I-a fost adaugata o intrare de masa persoanei %1$s</string>
+    <string name="add_activitate_persoana_message">I-a fost adaugata o intrare de activitati persoanei %1$s</string>
+    <string name="add_mancare_person_not_selected_message">Trebuie selectata o persoana pentru a-i fi adaugata o masa</string>
+    <string name="add_activitate_person_not_selected_message">Trebuie selectata o persoana pentru a-i adauga o activitate</string>
+    <string name="add_person_wrong_screen_message">Trebuie sa fiti pe ecranul cu persoane pentru a adauga o persoana</string>
+    <string name="add_mancare_wrong_screen_message">Trebuie sa fiti pe ecranul cu mancaruri pentru a adauga o masa</string>
+    <string name="add_activitate_wrong_screen_message">Trebuie sa fiti pe ecranul activitati pentru a adauga o activitate</string>
+    <string name="update_persoana_not_selected_message">Trebuie selectata o inregistrare de persoana pentru a-i modifica datele</string>
+    <string name="update_persoana_wrong_screen_message">Trebuie sa fiti pe ecranul cu persoane pentru a modifica o persoana</string>
+    <string name="update_mancare_not_selected_message">Trebuie selectata o inregistrare de mancare pentru a-i modifica datele</string>
+    <string name="update_mancare_wrong_screen_message">Trebuie sa va aflati pe ecranul de mancaruri pentru a modifica o masa</string>
+    <string name="update_persoana_success_message">I-au fost modificate datele persoanei %1$s</string>
+    <string name="update_mancare_success_message">I-au fost modificate datele mesei %1$s</string>
+    <string name="update_activitate_success_message">I-au fost modificate datele activitatii %1$s</string>
+    <string name="update_activitate_not_selected_message">Trebuie selectata o inregistrare de activitate pentru a-i modifica datele</string>
+    <string name="update_activitate_wrong_screen_message">Trebuie sa va aflati pe ecranul cu activitati pentru a modifica o activitate</string>
+    <string name="menu_option_firebase">Firebase</string>
+    <string name="firebase_salvare">Salvare</string>
+    <string name="firebase_restaurare">Restaurare</string>
+    <string name="chart_label_format">%1$s: %2$.2f cal</string>
+    <string name="descriere_text_pie_chart">Durata activitati (in minute)</string>
+    <string name="centru_text_pie_chart">Activitati</string>
+    <string name="pie_chart_select_text">Nume activitate: %1$s</string>
+    <string name="text_progress_bar_calorii_procent">%1$s %%</string>
+    <string name="your_personal_activity_logger">Agenda ta persoanala</string>
+    <string name="lv_activitati_calorii_template">%1$.2f calorii arse</string>
+
+</resources>

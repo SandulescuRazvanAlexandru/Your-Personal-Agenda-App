@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lv_row_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_lv_activitati_view_tip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_activitati_view_tip_activitate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_lv_activitati_view_durata_ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/iv_lv_activitati_view_durata_ore"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_activitati_view_durata_ore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_activitati_view_tip"
+        app:srcCompat="@drawable/ic_clock_image_removebg_preview_svg" />
+
+    <TextView
+        android:id="@+id/tv_lv_activitati_view_durata_ore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_activitati_view_durata_ore"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_activitati_view_calorii_arse"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_activitati_view_durata_ore"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_activitati_view_tip" />
+
+
+    <ImageView
+        android:id="@+id/iv_lv_activitati_view_durata_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/iv_lv_activitati_view_durata_minute"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_activitati_view_durata_minute"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_activitati_view_durata_ore"
+        app:srcCompat="@drawable/ic_clock_image_removebg_preview_svg" />
+
+    <TextView
+        android:id="@+id/tv_lv_activitati_view_durata_minute"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_activitati_view_durata_minute"
+        app:layout_constraintEnd_toStartOf="@id/tv_lv_activitati_view_calorii_arse"
+        app:layout_constraintStart_toEndOf="@id/iv_lv_activitati_view_durata_minute"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_activitati_view_durata_ore" />
+
+
+    <TextView
+        android:id="@+id/tv_lv_activitati_view_calorii_arse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/tv_lv_activitati_view_calorii_arse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_lv_activitati_view_durata_ore"
+        app:layout_constraintTop_toBottomOf="@id/tv_lv_activitati_view_tip" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

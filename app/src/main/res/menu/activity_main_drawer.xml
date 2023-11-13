@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_nav_persoane"
+            android:icon="@drawable/ic_baseline_accessibility_24"
+            android:title="@string/menu_options_persoane" />
+        <item
+            android:id="@+id/main_nav_mancaruri"
+            android:icon="@drawable/ic_baseline_fastfood_24"
+            android:title="@string/menu_options_mancaruri" />
+        <item
+            android:id="@+id/main_nav_activitati"
+            android:icon="@drawable/ic_baseline_fitness_center_24"
+            android:title="@string/menu_options_activitati" />
+        <item
+            android:id="@+id/main_nav_rapoarte"
+            android:icon="@drawable/ic_baseline_graphic_eq_24"
+            android:title="@string/menu_options_rapoarte" />
+        <item
+            android:id="@+id/main_nav_tutorial"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_options_tutorial" />
+        <item
+            android:id="@+id/main_nav_detalii"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_options_detalii" />
+        <item
+            android:id="@+id/main_nav_firebase"
+            android:icon="@drawable/ic_round_fireplace_24"
+            android:title="@string/menu_option_firebase" />
+    </group>
+</menu>
